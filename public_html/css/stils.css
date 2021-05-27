@@ -3,7 +3,10 @@
     line-height: 1.8;
     color: #f5f6f7;
   }
-  p {font-size: 16px;}
+  #what_teksts:hover {
+  background-color: red;
+  color: black; 
+  font-size: 20px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #1abc9c; /* Green */
@@ -36,7 +39,38 @@
   }
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
-  }/*
+  }
+  #poga:hover {
+      
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  }
+  @keyframes example {
+  0%   {background-color:red; left:0px;}
+  25%  {background-color:yellow; left:200px; }
+  50%  {background-color:blue; left:0px; }
+  75%  {background-color:green; left:-200px;}
+  100% {background-color:red; left:0px;}
+}
+#bilde {
+    width: 350px;
+  height: 350px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#bilde:hover {
+    width: 500px;
+    height: 500px;
+    transform: rotate(360deg);
+}
+.kods {
+    text-align: left;
+    background-color: #f9f2f4;
+}
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
