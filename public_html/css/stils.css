@@ -70,6 +70,15 @@
     text-align: left;
     background-color: #f9f2f4;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+.sticky+.content {
+    padding-top:60px
+}
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
